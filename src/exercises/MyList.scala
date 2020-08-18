@@ -98,7 +98,7 @@
 //    override def transform(a: Int): MyList[Int] = new Cons[Int](a, new Cons[Int](a + 1, Empty))
 //  }).toString)
 //  //  println((intList ++ intList1).toString)
-//  //  val filtered: MyList[Int] = intList.filter(a => a % 2 != 0)
+//    val filtered: MyList[Int] = intList.filter(a => a % 2 != 0)
 //  //  val mapped: MyList[Any] = intList.map(a => a * 2)
 //  //  println(filtered.toString)
 //  //  println(mapped.toString)
